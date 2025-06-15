@@ -1,1 +1,1 @@
-
+Evidencing of the ideation process, design and implementation to the website CeZero which was focused on carbon emission, unable to allow people to use the website as it is a local host, however I have dropped some screenshots, and a Youtube video link within the PDF file (2315045) explaining the features of the site.
