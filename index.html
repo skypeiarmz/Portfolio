@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chelsea Player Dashboard</title>
+    <style>
+      body {
+        background-color: #38003c;
+        color: white;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+      }
+      h1 {
+        color: white;
+        text-align: center;
+      }
+      #searchBox {
+        background-color: white;
+        border: 2px solid #38003c;
+      }
+      button {
+        background-color: #00ff85;
+        color: #38003c;
+        border: none;
+        padding: 10px 15px;
+        font-weight: bold;
+        border-radius: 4px;
+      }
+      button:disabled {
+        background-color: #666;
+        color: #999;
+      }
+
+      .player-name {
+        font-family: "Arial", "Helvetica", sans-serif;
+        font-weight: 700;
+        font-size: 22px;
+        color: white;
+        margin: 0;
+        letter-spacing: 0.5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Chelsea FC 24/25 Player Database</h1>
+    <input
+      type="text"
+      id="searchBox"
+      placeholder="Search players..."
+      style="padding: 10px; margin: 10px 0; width: 300px; font-size: 16px"
+    />
+
+    <div id="statsPanel" style="background: rgba(255,255,255,0.1); padding: 20px; margin: 20px 0;"
+    <div id="pagination" style="margin: 20px 0">
+      <button id="prevBtn">← Previous</button>
+      <span id="pageInfo" style="margin: 0 20px">Page 1</span>
+      <button id="nextBtn">Next →</button>
+    </div>
+
+    <div id="players"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
